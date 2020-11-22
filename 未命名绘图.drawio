@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T13:57:21.018Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3776.400 QQBrowser/10.6.4212.400" etag="tsmNaGi4tY24luf64iMU" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T14:02:03.409Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3776.400 QQBrowser/10.6.4212.400" etag="HVBkcaQZ7eGhRpcyqKgW" version="13.6.2" type="github">
   <diagram id="2N0sheNlyW3y-NobzQPK" name="第 1 页">
     <mxGraphModel dx="998" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="1ufMS89c5Ee1v1FOWZT0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ufMS89c5Ee1v1FOWZT0-1" target="1ufMS89c5Ee1v1FOWZT0-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ufMS89c5Ee1v1FOWZT0-1" value="扫盲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;扫盲&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1ufMS89c5Ee1v1FOWZT0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ufMS89c5Ee1v1FOWZT0-3" target="1ufMS89c5Ee1v1FOWZT0-4">
@@ -22,8 +22,44 @@
         <mxCell id="1ufMS89c5Ee1v1FOWZT0-4" value="分布式锁&lt;br&gt;JVM锁&lt;br&gt;区别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1ufMS89c5Ee1v1FOWZT0-5" value="mysql&lt;br&gt;redis&lt;br&gt;zk&lt;br&gt;redc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ufMS89c5Ee1v1FOWZT0-5" target="1ufMS89c5Ee1v1FOWZT0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-5" value="mysql&lt;br&gt;redis&lt;br&gt;zk&lt;br&gt;etcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-9" value="轻量级的分布式锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-11" value="锁是什么" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ufMS89c5Ee1v1FOWZT0-12" target="1ufMS89c5Ee1v1FOWZT0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-12" value="线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-13" value="线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-15" value="堆" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-16" value="线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-17" value="线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-18" value="堆" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="500" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-19" value="对象头&lt;br&gt;第三方" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1ufMS89c5Ee1v1FOWZT0-20" value="mysql&lt;br&gt;redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="310" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
